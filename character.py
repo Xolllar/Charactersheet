@@ -94,7 +94,7 @@ def cards(skill1, skill2, skill3):
 
 def template(context, i):
     file_operations.render_template(
-        "src/charsheet.svg",
+        "charsheet.svg",
         "result/svg/result-{}.svg".format(i), context)
 
 
