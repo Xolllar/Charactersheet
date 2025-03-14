@@ -85,7 +85,7 @@ def new_skills(skills):
         'Ю': 'Ю̋͠',
         'Я': 'Я̋',
         ' ': ' '
-               }
+    }
     runic_skills = []
     for i in skills:
         runic_skill = i
